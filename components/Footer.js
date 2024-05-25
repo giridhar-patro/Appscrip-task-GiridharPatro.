@@ -148,7 +148,7 @@ const Footer = () => {
               {filterType === "mettamuse" && showMettamuse && (
                 <div className="optionlist">
                   {options.map((option) => (
-                    <li>
+                    <li key={index}>
                       <a href="#">{option}</a>
                     </li>
                   ))}
@@ -157,7 +157,7 @@ const Footer = () => {
               {filterType === "quicklinks" && showQuickLinks && (
                 <div className="optionlist">
                   {options.map((option) => (
-                    <li>
+                    <li key={index}>
                       <a href="#">{option}</a>
                     </li>
                   ))}
@@ -166,7 +166,7 @@ const Footer = () => {
               {filterType === "followus" && showFollow && (
                 <div className="optionlist">
                   {options.map((option) => (
-                    <li>
+                    <li key={index}>
                       <a href="#">{option}</a>
                     </li>
                   ))}
