@@ -1,0 +1,245 @@
+.footer-container {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+.footer-heading{
+  font-weight: bold;
+}
+
+.horizontalLine {
+  margin : 0px;
+  border: none;
+  border-top: 1px solid #ffffff; 
+}
+
+.dropdownOption{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.optionlist{
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.payment{
+  display: flex;
+
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-desktop-container {
+    background-color: black;
+    padding: 20px;
+    color: white;
+  }
+
+  .footersection-1{
+    display: flex;
+  }
+
+  .footersection-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+ 
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin:0 30px;
+  }
+  
+  .footer-section h1 {
+    text-align: left;
+  }
+  
+  .footer-section p {
+    text-align: left;
+    padding-top: 1px;
+  }
+  
+  .subscribe-input {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .inp {
+    width: 70%;
+    height: 40px;
+    margin-bottom: 50px;
+  }
+  
+  #sub {
+    width: 30%;
+    height: 45px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border-style: groove;
+    border-radius: 4px;
+    font-weight: 600;
+    opacity: 0.7;
+    color: grey;
+  }
+  
+  .contact-us {
+    margin-top: 50px;
+    text-align: right;
+    
+    margin-left: 30px;
+  }
+  
+  .contact-details {
+    margin-top: 10px;
+  }
+  
+  #cell{
+    margin-right: 81%;
+    padding-left:5px;
+    margin-bottom: 10%;
+    
+  }
+ 
+ .currency{
+    display:flex;
+    
+
+ }
+  .currency img{
+    margin-right: 30px;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    
+  }
+  .currency span{
+    margin-top: 0px;
+    font-size: 20px;
+    align-items: center;
+    font-weight: 700;
+    
+  }
+
+   p{
+    margin-top:5%;
+    margin-right: 12%;
+  }
+
+  #mail{
+    margin-right: 76%;
+    padding-left:2px;
+  }
+  .contact-details span {
+    margin-left: 4px;
+    margin-bottom: 30px;
+  }
+  
+  hr {
+    margin: 20px 30px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    top:15px;
+  }
+  
+  .currency-section img {
+    width: 30px;
+    height: auto;
+  }
+
+.heading  {
+    display: inline;
+}
+
+
+   .dropdown-section {
+    flex: 1;
+    margin-left: 32px;
+    
+    margin-bottom: 10px;
+}
+
+.dropdown-section .follow , .payment-methods{
+    margin-top: 10px;
+    margin-right:40%;
+    text-align: left;
+
+}
+
+.dropdown-section .follow , .insta , .link {
+    margin-top: 10px;
+    margin-right:10%;
+    
+}
+.dropdown-section .heading , h2{
+    margin-top: 2px;
+}
+.dropdown-section .heading {
+    
+    text-align: left;
+    margin-left: 20%;
+    list-style-type: none;
+}
+
+.dropdown-section .quick , h2{
+    margin-top: 1px;
+}
+.dropdown-section .quick {
+    
+    text-align: left;
+    margin-left: 20%;
+    list-style-type: none;
+}
+
+.dropdown-section h2,
+.payment-methods h1 {
+    margin-bottom: 10px;
+}
+
+.dropdown-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-section li {
+    margin-bottom: 5px;
+}
+
+.payment-images {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-images img {
+    max-width: 100px;
+}
+
+.payment-images img {
+  max-width: 100px;
+}
+  
+  @media (min-width: 769px) {
+    .footer-container{
+        display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-desktop-container{
+        display: none;
+    }
+  }

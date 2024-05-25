@@ -1,0 +1,302 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+  }
+  #mobile-links{
+    display: none;
+  }
+  .head label {
+    font-size: 25px;
+    font-weight: 700;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .left-icons,
+  .right-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 70px;
+  }
+  
+  .icon {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  
+  select {
+    margin-left: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  #mobile {
+    display: none;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  #mobile i {
+    font-size: 25px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #navbar {
+    display: flex;
+    list-style: none;
+  }
+  
+  #navbar li {
+    margin: 0 15px;
+    font-size: medium;
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    opacity: 0.7;
+    transition: 0.6s ease-in-out;
+  }
+  
+  #navbar li a:hover {
+    color: blue;
+  }
+  
+  #navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .head {
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+  
+    #mobile {
+      display: block;
+    }
+  
+    #navbar {
+      display: none;
+      flex-direction: column;
+      width: 30%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    #navbar.active {
+      display: flex;
+      
+    }
+  
+    #navbar li {
+      margin: 15px 0;
+      text-align: center;
+    }
+  
+    nav.active #navbar {
+      display: flex;
+    }
+  
+  
+  }
+
+
+.navbar {
+  background-color: #333;
+  color: white;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.cartIcon {
+  margin-left: 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 0.3rem;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+.navbar {
+  background-color: white; 
+  color: black; 
+}
+
+@media (max-width: 768px) {
+  
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    color: black;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .topBar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .cartIcon {
+    order: 1;
+  }
+
+  .center {
+    order: 2;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    
+  }
+
+  .hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 4px;
+    margin-left: 5px;
+  }
+
+
+
+
+
+  
+
+  .right-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    margin-right: 0.5rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  nav.active {
+    display: block;
+  }
+  #mobile-links {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 20px;
+    padding-bottom: 0px;
+  }
+  
+  #mobile-links a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    opacity: 0.7;
+    margin-bottom: 10px;
+  }
+
+
+
+  
+  #mobile-links a.active {
+    color: grey; 
+  }
+}
+.navlogo{
+  margin-left:150px;
+}
